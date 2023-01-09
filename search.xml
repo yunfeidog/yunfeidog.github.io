@@ -5,12 +5,24 @@
     
     <entry>
       <title>hexo常用命令</title>
-      <link href="/2023-01-09-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-      <url>/2023-01-09-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      <link href="/2023/01/09/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/01/09/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
       
         <content type="html"><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><ul><li>创建一篇文章<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;文章名&quot;</span><br></pre></td></tr></table></figure></li><li>创建一个目录+文章<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;目录名/文章名&quot;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -18,12 +30,24 @@
     
     <entry>
       <title>第一篇文章</title>
-      <link href="/2023-01-09-%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-      <url>/2023-01-09-%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+      <link href="/2023/01/09/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/01/09/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
       
         <content type="html"><![CDATA[<h1 id="测试文章"><a href="#测试文章" class="headerlink" title="测试文章"></a>测试文章</h1><p>这是一段测试文字</p><h1 id="hexo本地预览"><a href="#hexo本地预览" class="headerlink" title="hexo本地预览"></a>hexo本地预览</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl;hexo s;</span><br></pre></td></tr></table></figure><h1 id="hexo发布"><a href="#hexo发布" class="headerlink" title="hexo发布"></a>hexo发布</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl;hexo g;hexo d;</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 测试文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -测试 </tag>
+            
+        </tags>
       
     </entry>
     
