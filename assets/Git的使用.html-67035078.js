@@ -1,0 +1,12 @@
+import{_ as a}from"./plugin-vue_export-helper-c27b6911.js";import{o as n,c as s,a as e}from"./app-4a161474.js";const i={},t=e(`<h1 id="git的使用" tabindex="-1"><a class="header-anchor" href="#git的使用" aria-hidden="true">#</a> Git的使用</h1><p>配置账户：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">&quot;xxx&quot;</span> <span class="token comment"># 这里是 github 注册的账号（用户名）</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">&quot;xxx&quot;</span> <span class="token comment"># github 注册的邮箱</span>
+<span class="token comment"># 查看 git 账号信息</span>
+<span class="token function">git</span> config user.name
+<span class="token function">git</span> config user.email
+<span class="token comment"># 或者直接使用以下命令就可以看到整个账户信息</span>
+<span class="token function">git</span> config <span class="token parameter variable">--list</span>
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> /www/wwwroot/yunfei.plus/ <span class="token operator">&amp;&amp;</span><span class="token function">git</span> pull origin main
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Git切换分支：<br> 先查看分支：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> branch <span class="token parameter variable">-a</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>再切换分支：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> checkout branchName
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,8),l=[t];function c(o,r){return n(),s("div",null,l)}const u=a(i,[["render",c],["__file","Git的使用.html.vue"]]);export{u as default};
